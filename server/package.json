@@ -1,0 +1,18 @@
+{
+  "name": "dizai-server",
+  "version": "1.0.0",
+  "description": "Backend do DizAI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "groq-sdk": "^1.6.0",
+    "openai": "^4.104.0"
+  }
+}
